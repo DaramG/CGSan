@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Conf.fs" />
+    <Compile Include="Info.fs" />
+    <Compile Include="Result.fs" />
+    <Compile Include="GcState.fs" />
+    <Compile Include="Reducer.fs" />
+    <Compile Include="VState.fs" />
+    <Compile Include="Verifier.fs" />
+    <Compile Include="Analyzer.fs" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\lib\FsSymExe\src\Common\Common.fsproj" />
+    <ProjectReference Include="..\..\lib\FsSymExe\src\LLIR\LLIR.fsproj" />
+    <ProjectReference Include="..\..\lib\FsSymExe\src\PathOptimizer\PathOptimizer.fsproj" />
+    <ProjectReference Include="..\..\lib\FsSymExe\src\SymExecutor\SymExecutor.fsproj" />
+  </ItemGroup>
+
+</Project>

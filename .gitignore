@@ -1,0 +1,11 @@
+obj/
+bin/
+build/
+*.swp
+*.swo
+*.dll
+*.o
+*.ll
+*.bc
+*.zip
+llvm-project
