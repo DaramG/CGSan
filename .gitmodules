@@ -1,0 +1,3 @@
+[submodule "lib/FsSymExe"]
+	path = lib/FsSymExe
+	url = git@github.com:DaramG/FsSymExe.git
